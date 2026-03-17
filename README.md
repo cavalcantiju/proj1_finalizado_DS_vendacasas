@@ -1,6 +1,7 @@
 # Previsão de Preço de Imóveis com Regressão Linear
 
-Este projeto tem como objetivo utilizar modelos de regressão linear para prever o preço de imóveis com base em características estruturais.
+Finalizando o projeto de precificação de casas da Alura
+.
 
 ## Modelo Utilizado
 
