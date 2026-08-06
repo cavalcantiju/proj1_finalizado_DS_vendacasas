@@ -1,7 +1,73 @@
-# Previsão de Preço de Imóveis com Regressão Linear
+# Previsão e Análise Econométrica de Preços de Imóveis
 
-Finalizando o projeto de precificação de casas da Alura
-.
+Projeto de Ciência de Dados desenvolvido em Python para prever o preço de imóveis utilizando Regressão Linear Múltipla. O projeto aborda todas as etapas da construção de um modelo preditivo, desde a seleção de variáveis até a avaliação estatística do desempenho do modelo.
+
+## Objetivo
+
+Desenvolver um modelo capaz de estimar o valor de imóveis a partir de características estruturais da residência, analisando a influência de cada variável no preço final.
+
+---
+
+## Tecnologias Utilizadas
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Statsmodels
+- Matplotlib
+- Seaborn
+
+---
+
+## Etapas do Projeto
+
+- Análise exploratória dos dados (EDA)
+- Tratamento e preparação dos dados
+- Construção de modelos de Regressão Linear
+- Seleção de variáveis
+- Predição de novos imóveis
+- Predição em lote utilizando arquivos CSV
+- Avaliação estatística do modelo
+- Análise de resíduos
+- Diagnóstico de multicolinearidade (VIF)
+
+---
+
+## Variáveis Utilizadas no Modelo Final
+
+Após o processo de seleção de atributos, o modelo final foi construído utilizando as seguintes variáveis:
+
+- Área do primeiro andar
+- Existência de segundo andar
+- Quantidade de banheiros
+- Cozinha com padrão excelente
+
+Essas variáveis apresentaram maior capacidade de explicar a variação do preço dos imóveis.
+
+---
+
+## Avaliação do Modelo
+
+Para validar o desempenho do modelo foram realizadas análises como:
+
+- Comparação entre valores reais e previstos
+- Análise dos resíduos
+- Identificação de heterocedasticidade
+- Avaliação de multicolinearidade utilizando Variance Inflation Factor (VIF)
+
+Após a remoção de variáveis altamente correlacionadas, todos os valores de VIF permaneceram abaixo do limite recomendado, indicando ausência de multicolinearidade relevante.
+
+---
+
+## Principais Resultados
+
+- Modelo capaz de estimar preços de imóveis utilizando múltiplas características estruturais.
+- Implementação de previsão individual e previsão em lote.
+- Identificação de limitações do modelo por meio da análise estatística dos resíduos.
+- Interpretação dos coeficientes para compreender o impacto de cada variável na previsão.
+
+---
 
 ## Modelo Utilizado
 
