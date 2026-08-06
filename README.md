@@ -6,7 +6,6 @@ Projeto de Ciência de Dados desenvolvido em Python para prever o preço de imó
 
 Desenvolver um modelo capaz de estimar o valor de imóveis a partir de características estruturais da residência, analisando a influência de cada variável no preço final.
 
----
 
 ## Tecnologias Utilizadas
 
@@ -18,7 +17,7 @@ Desenvolver um modelo capaz de estimar o valor de imóveis a partir de caracter�
 - Matplotlib
 - Seaborn
 
----
+
 
 ## Etapas do Projeto
 
@@ -32,7 +31,7 @@ Desenvolver um modelo capaz de estimar o valor de imóveis a partir de caracter�
 - Análise de resíduos
 - Diagnóstico de multicolinearidade (VIF)
 
----
+
 
 ## Variáveis Utilizadas no Modelo Final
 
@@ -45,7 +44,7 @@ Após o processo de seleção de atributos, o modelo final foi construído utili
 
 Essas variáveis apresentaram maior capacidade de explicar a variação do preço dos imóveis.
 
----
+
 
 ## Avaliação do Modelo
 
@@ -58,7 +57,7 @@ Para validar o desempenho do modelo foram realizadas análises como:
 
 Após a remoção de variáveis altamente correlacionadas, todos os valores de VIF permaneceram abaixo do limite recomendado, indicando ausência de multicolinearidade relevante.
 
----
+
 
 ## Principais Resultados
 
@@ -67,7 +66,7 @@ Após a remoção de variáveis altamente correlacionadas, todos os valores de V
 - Identificação de limitações do modelo por meio da análise estatística dos resíduos.
 - Interpretação dos coeficientes para compreender o impacto de cada variável na previsão.
 
----
+
 
 ## Modelo Utilizado
 
